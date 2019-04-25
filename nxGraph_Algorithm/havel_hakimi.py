@@ -1,5 +1,5 @@
-import networkx as nx
-from Functions.global_properties import *
+from functions.global_properties import degree_sequence
+
 
 
 def Havel_Hakimi_Derivative(D):
