@@ -1,7 +1,7 @@
+import networkx as nx
 from Functions.bool_functions import is_dominating
 from Functions.global_properties import V, n
 from itertools import combinations
-import networkx as nx
 
 
 def minimum_dominating(G):
