@@ -1,10 +1,9 @@
-import networkx as nx
-from Functions.global_properties import *
-from Functions.local_properties import *
+ from Functions.global_properties import V
+from Functions.local_properties import neighbors
 
 def greedy_coloring(G):
     colors = {v: None for v in V(G)}
-    colors[V(G) [0]] = 1
+    colors[V(G)[0]] = 1
     for v in V(G):
         if colors[v] == None:
             N = neighbors(G, v)
@@ -12,7 +11,7 @@ def greedy_coloring(G):
             j = 1
             while colors[v] == None:
                 if j not in bad_colors:
-                    colors[v] = j
+                    colors[v] = 1
                 else:
                     j += 1
-    return colors
+    return colors 
