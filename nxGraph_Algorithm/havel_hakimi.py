@@ -1,7 +1,6 @@
 from functions.global_properties import degree_sequence
 
 
-
 def Havel_Hakimi_Derivative(D):
     for i in range(1, D[0] +1):
         D[i] -= 1
