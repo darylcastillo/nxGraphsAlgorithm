@@ -22,4 +22,3 @@ def residue(G):
     D = degree_sequence(G)
     Havel_Hakimi_Process(D)
     return len(D)
-© 2019 GitHub, Inc.
