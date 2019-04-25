@@ -1,4 +1,4 @@
- from Functions.global_properties import V
+from Functions.global_properties import V
 from Functions.local_properties import neighbors
 
 def greedy_coloring(G):
